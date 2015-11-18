@@ -43,14 +43,14 @@ legend {
 fieldset {
     border: none;
 }
-@media all and (max-width: 399.99px) {
+@media all and (max-width: 599.99px) {
     label {
         display: none;
     }
 }
 /*--Tablet Display--*/
 
-@media screen and (min-width: 400px) and (max-width: 1023.99px) {
+@media screen and (min-width: 600px) and (max-width: 1023.99px) {
     .inputs {
         line-height: 1.8;
         overflow: hidden;
