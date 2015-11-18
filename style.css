@@ -1,0 +1,104 @@
+/*Sans-Serif*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+/*Serif*/
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:700);
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+/*--Default Mobile Display--*/
+
+.masthead {
+    padding: 2rem;
+    background-image: url("http://coffeemugvn.com/main/images/services/banner_static.jpg");
+    background-size: 100% 100%;
+}
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Playfair Display SC;
+}
+label {
+    font-family: Montserrat;
+}
+form {
+    width: 100%;
+}
+input {
+    width: 100%;
+    padding: 5px;
+    font-family: Montserrat;
+}
+legend {
+    padding: 10px;
+    text-align: center;
+    font-family: Montserrat;
+}
+#submit {
+    width: 100%;
+    background-color: #83BDFF;
+}
+fieldset {
+    border: none;
+}
+@media all and (max-width: 399.99px) {
+    label {
+        display: none;
+    }
+}
+/*--Tablet Display--*/
+
+@media screen and (min-width: 400px) and (max-width: 1023.99px) {
+    .inputs {
+        line-height: 1.8;
+        overflow: hidden;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 75px;
+        -moz-column-count: 2;
+        -moz-column-gap: 10px;
+        column-count: 2;
+        column-gap: 10px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    input {
+        margin: 0 0 25px 0;
+    }
+    label {
+        font-size: 12px;
+    }
+    #submit {
+        width: 25%;
+    }
+}
+/*--Desktop Display--*/
+
+@media all and (min-width: 1024px) {
+    .inputs {
+        line-height: 1.8;
+        overflow: hidden;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 75px;
+        -moz-column-count: 2;
+        -moz-column-gap: 10px;
+        column-count: 2;
+        column-gap: 10px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    label {
+        display: inline-block;
+        width: 110px;
+    }
+    input {
+        margin: 0 0 25px 0;
+        width: 75%
+    }
+    #submit {
+        width: 10%;
+    }
+}
